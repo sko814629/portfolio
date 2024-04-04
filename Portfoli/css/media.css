@@ -1,0 +1,89 @@
+@media screen and (max-width: 991px) {
+  header #main-nav{
+    display: none;
+}
+.hamberger{
+  display: block;
+}
+section .about{
+  display: block;
+}
+.about-img img {
+  width: 80%;
+  margin: 0 auto;
+}
+.about h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-block: 2rem;
+}
+.about-heading{
+  padding: 0 6rem;
+}
+    
+  }
+  @media screen and (min-width: 991px) {
+    
+  .hamberger{
+    display: none;
+  }
+  .social a{
+    
+  }
+      
+    }
+
+
+    @media screen and (max-width: 768px) {
+      
+      .blog img {
+        width: 300px;
+      
+    }
+    
+  }
+      
+  @media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+    header{
+      /* background-color: aquamarine; */
+      /* height: 800px; */
+      background:linear-gradient(rgba(0 0 0 .4),rgba(0 0 0 .4))
+     
+  }
+
+  
+
+    .navbar{
+        display: none;
+
+    }
+    nav .right a i{
+        display:inline-block;
+        margin-right: 15px;
+    }
+    nav{
+        width: 100%;
+    }
+
+    .content{
+      padding: 0 2rem;
+      position: relative;
+      background: linear-gradient(rgba(0 0 0 0.9), rgba(0 0 0 0.9));
+    }
+    .heading{
+      position: absolute;
+      left: 40px;
+      top: 40p;
+    }
+    .blog img {
+      width: 300px;
+      margin: 0 auto;
+    
+  }
+  .about-heading{
+    padding: 0 2rem;
+  }
+  }
